@@ -12,7 +12,7 @@ export default function SearchBox({ weatherInfoHandler }) {
     console.log(city);
 
     let weatherAPI = "https://api.openweathermap.org/data/2.5/weather";
-    const API_KEY = "0cf51ef5e33a9946744eaaed0eb4dd54";
+    const API_KEY = "";
 
     let response = await fetch(
       `${weatherAPI}?q=${city}&appid=${API_KEY}&units=metric`
